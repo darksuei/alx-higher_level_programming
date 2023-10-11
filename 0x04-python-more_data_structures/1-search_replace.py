@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def search_replace(my_list, search, replace):
     arr = []
     for i in my_list:
@@ -8,3 +7,4 @@ def search_replace(my_list, search, replace):
         else:
             arr.append(i) 
     return(arr)
+    
